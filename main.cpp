@@ -474,7 +474,7 @@ public:
             discharge(u);
 
             if(vertices[u].h > oldHeight) {
-                L.splice(L.begin, L, vertex);
+                L.splice(L.begin(), L, vertex);
             }
 
             vertex++;
